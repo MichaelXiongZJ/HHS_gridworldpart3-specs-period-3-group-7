@@ -34,5 +34,6 @@ public class BugRunner
         world.add(new Bug());
         world.add(new Rock());
         world.show();
+        System.out.println("Hey");
     }
 }
