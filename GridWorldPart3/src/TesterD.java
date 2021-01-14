@@ -9,7 +9,8 @@ public class TesterD {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ActorWorld world = new ActorWorld();
-		world.add(new Location(0,0), new Jumper());
+		world.add(new Location(1,2), new Jumper());
+		world.add(new Location(3,2), new Bug());
 		world.show();
 
 	}

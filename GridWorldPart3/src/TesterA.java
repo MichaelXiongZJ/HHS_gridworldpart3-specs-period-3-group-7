@@ -9,14 +9,11 @@ import info.gridworld.grid.Location;
  */
 public class TesterA 
 {
-	public class TesterB 
+	public static void main(String[] args)
 	{
-		public static void main(String[] args)
-		{
-			ActorWorld world = new ActorWorld();
-			world.add(new Location(4, 5), new Jumper());
-			world.add(new Location(4, 3), new Flower());
-			world.show();
-		}
+		ActorWorld world = new ActorWorld();
+		world.add(new Location(4, 5), new Jumper());
+		world.add(new Location(4, 3), new Flower());
+		world.show();
 	}
 }
