@@ -12,8 +12,8 @@ public class TesterB
 	public static void main(String[] args)
 	{
 		ActorWorld world = new ActorWorld();
-		world.add(new Location(4, 1), new Jumper());
-		world.add(new Location(4, 0), new Flower());
+		world.add(new Location(1, 4), new Jumper());
+		world.add(new Location(0, 4), new Flower());
 		world.show();
 	}
 }
