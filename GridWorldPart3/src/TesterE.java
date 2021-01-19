@@ -9,7 +9,7 @@ public class TesterE {
     {
         ActorWorld world = new ActorWorld();
         world.add(new Location(4, 5), new Jumper());
-        world.add(new Location(2, 5), new Jumper());
+        world.add(new Location(3, 5), new Jumper());
         world.show();
 
     }	
