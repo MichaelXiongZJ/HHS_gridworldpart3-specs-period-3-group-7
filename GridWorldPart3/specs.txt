@@ -14,11 +14,11 @@ It turns 90 degrees to the right
 
 
 What will a jumper do if another actor (not a flower or a rock) is in the cell that is two cells in front of the jumper?
-It could turn around 180 degrees
+It could turn around 45 degrees clockwise
 
 
 What will a jumper do if it encounters another jumper in its path?
-It would turn 45 degrees and continue in its path
+It would turn 45 degrees clockwise and continue in its path
 
 
 What if the jumper is surrounded by rocks that are one block away from it.
