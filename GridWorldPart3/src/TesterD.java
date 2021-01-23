@@ -14,6 +14,7 @@ public class TesterD {
 		world.add(j);
 		world.add(b);
 		j.moveTo(new Location(1, 2));
+		j.setDirection(Location.SOUTH);
 		b.moveTo(new Location(3, 2));
 		world.show();
 

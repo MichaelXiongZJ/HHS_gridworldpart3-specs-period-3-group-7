@@ -8,7 +8,9 @@ public class TesterE {
 	public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();
-        world.add(new Location(4, 5), new Jumper());
+        Jumper j = new Jumper();
+        world.add(new Location(4, 5), j);
+        j.setDirection(Location.SOUTH);
         world.add(new Location(3, 5), new Jumper());
         world.show();
 
